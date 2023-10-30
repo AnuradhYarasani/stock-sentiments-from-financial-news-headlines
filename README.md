@@ -8,8 +8,7 @@ Sentiment analysis on natural language sentences can increase the accuracy of ma
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Acknowledgments](#Acknowledgments)
 
 ## About
 Stock sentiments are determined from financial headlines scraped from the web.
@@ -17,6 +16,7 @@ The idea is that the averaged value may give valuable information for the overal
 
 ## Demo
  
+![image](https://github.com/AnuradhYarasani/stock-sentiments-from-financial-news-headlines/assets/113980248/cbbb4de8-fd2e-4dee-adb3-d6495cdfb95c)
 
 ## Features
 
@@ -56,5 +56,3 @@ I would like to express our gratitude to the following individuals, organization
 
 - **Financial News Sources**: We are grateful to the financial news sources and publications that provide valuable data and news updates, which were essential for our analysis.
 
-## Contact
-Provide contact information for users to reach out to you with questions, feedback, or support.
