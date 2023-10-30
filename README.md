@@ -1,6 +1,5 @@
 # Stock sentiment Analysis
 Sentiment analysis on natural language sentences can increase the accuracy of market prediction because financial markets are influenced by investor sentiments.
-.
 
 ## Table of Contents
 
@@ -11,6 +10,7 @@ Sentiment analysis on natural language sentences can increase the accuracy of ma
 - [Acknowledgments](#Acknowledgments)
 
 ## About
+
 Stock sentiments are determined from financial headlines scraped from the web.
 The idea is that the averaged value may give valuable information for the overall sentiment of a stock for a given day (or week if you decide to average over a week’s news). What makes it easier to parse the website is that you simply have to add the stock ticker at the end of this url ‘https://finviz.com/quote.ashx?t=’ I hope you find this useful. All code is available in this Python Notebook. Of course, it is now up to you to decide what to do with the sentiment scores obtained! You can try doing machine learning with it if you want!
 
@@ -26,21 +26,12 @@ List the key features of this project:
 - Feature 3: monthly sentiments for a stock.
 
 ## Installation
-!pip install flask
-!pip install nltk
-!pip install urllib3
-!pip install bs4
-!pip install plotly
 
-## Import libraries
-import nltk
-import pandas as pd
-import plotly.express as px
-from bs4 import BeautifulSoup
-nltk.downloader.download('vader_lexicon')
-from urllib.request import urlopen, Request
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-
+- !pip install flask
+- !pip install nltk
+- !pip install urllib3
+- !pip install bs4
+- !pip install plotly
 
 ## Acknowledgments
 
